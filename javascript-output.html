@@ -10,11 +10,26 @@
     <p id="text"> </p>
   <script type="text/javascript">
 
-    document.getElementById("text").innerHTML = Date();
+var friends = [["Steve", "london", 27],["Jack", "Paris", 27],["Bob", "New York", 27]];
 
-    // window.alert("hellow world");
-    // document.write("hi!");
-  
+for (x = 0; x < friends.length; x++){
+  document.write(friends[0][x]);
+  document.write("<br />");
+}
+  // var friends = ["Steve", "london", 27];
+
+  //   for (x = 0; x < friends.length; x++){
+  //     document.write(friends[x]);
+  //     document.write("<br />");
+  //   }
+
+// var name = "Stever";
+
+// for(x = 0; x < 100; x++){
+//   document.write(name);
+//   document.write("<br />");
+// }
+
   </script>
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js" type="text/javascript"></script> -->
